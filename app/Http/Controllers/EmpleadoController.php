@@ -12,7 +12,8 @@ class EmpleadoController extends Controller
      */
     public function index()
     {
-        //
+        $empleado=Empleado::all();
+        dd($empleado);
     }
 
     /**

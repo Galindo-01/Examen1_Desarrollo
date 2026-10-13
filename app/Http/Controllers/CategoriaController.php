@@ -12,7 +12,9 @@ class CategoriaController extends Controller
      */
     public function index()
     {
-        //
+        $categoria=Categoria::all();
+
+        dd($categoria);
     }
 
     /**
