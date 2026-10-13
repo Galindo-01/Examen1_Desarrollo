@@ -12,7 +12,10 @@ class ProveedorController extends Controller
      */
     public function index()
     {
-        //
+        $proveedor=Proveedor::all();
+
+        dd($proveedor);
+
     }
 
     /**

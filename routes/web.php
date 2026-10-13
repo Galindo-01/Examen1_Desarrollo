@@ -15,5 +15,5 @@ Route::get('/', function () {
 Route::get('/categorias', [CategoriaController::class, 'index'])->name('categorias.index');
 Route::get('/empleados', [EmpleadoController::class, 'index'])->name('empleados.index');
 Route::get('/productos', [ProductoController::class, 'index'])->name('productos.index');
-Route::get('/proovedores', [ProductoController::class, 'index'])->name('proovedores.index');
+Route::get('/proovedores', [ProveedorController::class, 'index'])->name('proovedores.index');
 Route::get('/clientes', [ClienteController::class, 'index'])->name('clientes.index');
